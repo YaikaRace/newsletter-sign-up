@@ -10,6 +10,10 @@
       @subscribed="(v) => (email = v)"
     />
   </main>
+  <footer class="text-xs text-center sm:bg-charcoal-gray sm:text-white">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-tomato">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/YaikaRace" target="_blank" class="text-tomato">Yahir (Yaika Race)</a>.
+  </footer>
 </template>
 
 <script>
