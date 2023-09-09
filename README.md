@@ -1,24 +1,67 @@
-# newsletter-sign-up
+# Frontend Mentor - Newsletter sign-up form with success message solution
 
-## Project setup
-```
-npm install
-```
+This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Table of contents
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-### Lints and fixes files
-```
-npm run lint
-```
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- Add their email and submit the form
+- See a success message with their email after successfully submitting the form
+- See form validation messages if:
+  - The field is left empty
+  - The email address is not formatted correctly
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+
+### Screenshot
+
+#### Desktop
+![](./screnshots/desktop.png)
+
+#### Desktop Success
+![](./screnshots/desktop_success.png)
+
+#### Mobile
+![](./screnshots/mobile.png)
+
+#### Mobile Success
+![](./screnshots/mobile_success.png)
+
+
+### Links
+
+- Solution URL: [Click here](https://www.frontendmentor.io/profile/YaikaRace)
+- Live Site URL: [Click here](https://newsletter-sign-up-yaikarace.vercel.app)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
+- [Vue JS](https://vuejs.org) - JS Framework
+
+## Author
+
+- GitHub - [Yaika Race](https://github.com/yaikarace)
+- Frontend Mentor - [@YaikaRace](https://www.frontendmentor.io/profile/YaikaRace)
+- Twitter - [@YaikaRace](https://www.twitter.com/YaikaRace)

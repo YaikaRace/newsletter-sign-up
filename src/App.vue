@@ -1,26 +1,31 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <main class="font-body min-h-screen min-w-screen sm:bg-charcoal-gray sm:flex sm:justify-center sm:items-center">
+    <success-component
+      v-if="email"
+      @dismissed="email = null"
+      :email="email"
+    />
+    <subscribe-component
+      v-else
+      @subscribed="(v) => (email = v)"
+    />
+  </main>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import SubscribeComponent from "./components/SubscribeComponent.vue";
+  import SuccessComponent from "./components/SuccessComponent.vue";
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  export default {
+    name: "App",
+    components: {
+      SubscribeComponent,
+      SuccessComponent,
+    },
+    data() {
+      return {
+        email: null,
+      };
+    },
+  };
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
